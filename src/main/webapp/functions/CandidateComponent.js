@@ -32,6 +32,6 @@ export default class CandidateComponent {
                 method:'POST'
             }
         );
-        //window.location.href = "results.html";
+        window.location.href = "results.html";
     }
 }

@@ -14,7 +14,8 @@ public class CandidateProvider {
             int id = results.getInt("id");
             String names = results.getString("names");
             String image = results.getString("image");
-            candidates.add(new Candidate(id, names, image));
+            int votes = results.getInt("votes");
+            candidates.add(new Candidate(id, names, image, votes));
         }
         connection.close();
         return candidates;

@@ -32,7 +32,6 @@ export default class CandidateComponent {
                 method:'POST'
             }
         );
-        console.log("Voto Registrado");
-        //window.location.href = "results.html";
+        window.location.href = "results.html";
     }
 }
